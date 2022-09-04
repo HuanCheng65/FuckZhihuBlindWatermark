@@ -1,0 +1,1 @@
+javascript:let styleEle=document.createElement("style");styleEle.innerHTML=".App{background-image:none!important}";document.body.append(styleEle);

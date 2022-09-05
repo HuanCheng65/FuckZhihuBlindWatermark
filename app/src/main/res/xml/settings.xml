@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="去他妈的知乎盲水印">
+        <Preference android:key="fuck_zhihu_blind_watermark" android:title="运行中" />
+    </PreferenceCategory>
+</PreferenceScreen>

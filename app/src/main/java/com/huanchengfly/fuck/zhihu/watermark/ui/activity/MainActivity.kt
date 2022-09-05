@@ -67,8 +67,8 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
         )
         binding.mainImgStatus.setImageResource(
             when {
-                YukiHookAPI.Status.isXposedModuleActive -> R.mipmap.ic_success
-                else -> R.mipmap.ic_warn
+                YukiHookAPI.Status.isXposedModuleActive -> R.drawable.ic_round_check_circle_24
+                else -> R.drawable.ic_round_info_24
             }
         )
         binding.mainTextStatus.text = getString(

@@ -33,7 +33,7 @@
             android:layout_height="27dp"
             android:layout_marginEnd="5dp"
             android:alpha="0.85"
-            android:src="@mipmap/ic_github"
+            android:src="@drawable/logo_github"
             android:tint="@color/colorTextGray" />
     </LinearLayout>
 
@@ -55,7 +55,7 @@
             android:layout_height="25dp"
             android:layout_marginStart="25dp"
             android:layout_marginEnd="5dp"
-            android:src="@mipmap/ic_warn"
+            android:src="@drawable/ic_round_info_24"
             android:tint="@color/white" />
 
         <LinearLayout
@@ -150,7 +150,7 @@
                 android:layout_width="15dp"
                 android:layout_height="15dp"
                 android:layout_marginEnd="10dp"
-                android:src="@mipmap/ic_home" />
+                android:src="@drawable/ic_round_home_24" />
 
             <TextView
                 android:layout_width="match_parent"
